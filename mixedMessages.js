@@ -11,3 +11,5 @@ function insult(){
     const particle = secondNounArray[1]
     return("Your " + firstNoun + " is " + particle + " " + secondNoun)
 }
+
+console.log(insult())
