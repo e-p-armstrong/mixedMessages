@@ -1,15 +1,18 @@
 //This program shall insult the user. It's the first thing that came to mind. Is this why I have no friends?
 
-const userRelatedNounArray = ["Mother","Father","Dog","Cat","Daughter","Son","Second Cousin Twice Removed","Brother","Sister"];
-const insultNounArray = [["idiot","an"],["moron","a"],["scoundrel","a"],["knave","a"],["cur","a"],["slut","a"],["whore","a"],["bastard","a"],["vagabond","a"],["lowlife","a"],["pig","a"],["psycho","a"],] //The second element of each item array specifies whether to use 'an' or 'a' -- grammatical correctness is important!
+const userRelatedNounArray = ["mother","father","dog","cat","daughter","son","second cousin twice removed","brother","sister"];
+const insultAdjectiveArray = [["detestable","a"],["worthless","a"],["miserable","a"],["pathetic","a"],["demented","a"],["unlovable","an"],["unapologetic","an"],["complete","a"],["total","a"],["rude","a"],["ugly","a"],["fat","a"],["stupid","a"]];
+const insultNounArray = ["idiot","moron","scoundrel","knave","cur","slut","whore","bastard","vagabond","lowlife","pig","psycho"]; //The second element of each item array specifies whether to use 'an' or 'a' -- grammatical correctness is important!
 
 
 function insult(){
+    const adjectiveArray = insultAdjectiveArray[Math.floor((Math.random() * insultAdjectiveArray.length))]
     const firstNoun = userRelatedNounArray[Math.floor((Math.random() * userRelatedNounArray.length))]
-    const secondNounArray = insultNounArray[Math.floor((Math.random() * userRelatedNounArray.length))]
-    const secondNoun = secondNounArray[0]
-    const particle = secondNounArray[1]
-    return("\nYour " + firstNoun + " is " + particle + " " + secondNoun + "!\n")
+    const secondNoun = insultNounArray[Math.floor((Math.random() * insultNounArray.length))]
+    const adjective = adjectiveArray[0]
+    const particle = adjectiveArray[1]
+
+    return("\nYour " + firstNoun + " is " + particle + " " + adjective + " " + secondNoun + "!\n")
 }
 
 console.log(insult())
