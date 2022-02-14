@@ -1,4 +1,3 @@
-##MIXED (RUDE!) MESSAGES
 ### An insult generator
 
 This simple script does one thing: attempt to make you angry. It might also make you laugh as an unintended side-effect.
