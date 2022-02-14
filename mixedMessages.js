@@ -9,7 +9,7 @@ function insult(){
     const secondNounArray = insultNounArray[Math.floor((Math.random() * userRelatedNounArray.length))]
     const secondNoun = secondNounArray[0]
     const particle = secondNounArray[1]
-    return("Your " + firstNoun + " is " + particle + " " + secondNoun)
+    return("\nYour " + firstNoun + " is " + particle + " " + secondNoun + "\n")
 }
 
 console.log(insult())
