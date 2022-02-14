@@ -13,4 +13,4 @@ This simple generator works by:
 
 Suggestions for additional nouns and adjectives are welcome, I suppose. And if I made a stupid mistake please tell me. And some sage parting words:
 
-> Your cat is a demented vagabond!
+> Your dog is an unapologetic cur!
