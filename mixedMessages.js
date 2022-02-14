@@ -13,3 +13,5 @@ function insult(){
 }
 
 console.log(insult())
+
+//If I think of any ways to increase the intensity of the insults, I will add them. But otherwise this code accomplishes its objective in a concise fashion and I see no need to bloat it.
