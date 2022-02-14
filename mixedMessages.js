@@ -1,6 +1,6 @@
 //This program shall insult the user.
 
-const userRelatedNounArray = ["Mother","Father","Family","Dog","Cat","Daughter","Son","Second Cousin Twice Removed","Brother","Sister"];
+const userRelatedNounArray = ["Mother","Father","Dog","Cat","Daughter","Son","Second Cousin Twice Removed","Brother","Sister"];
 const insultNounArray = [["idiot","an"],["moron","a"],["scoundrel","a"],["knave","a"],["cur","a"],["slut","a"],["whore","a"],["bastard","a"],["vagabond","a"],["lowlife","a"],["pig","a"],["psycho","a"],] //The second element of each item array specifies whether to use 'an' or 'a' -- grammatical correctness is important!
 
 
