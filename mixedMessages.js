@@ -1,7 +1,7 @@
 //This program shall insult the user. It's the first thing that came to mind. Is this why I have no friends?
 
 const userRelatedNounArray = ["mother","father","dog","cat","daughter","son","second cousin twice removed","brother","sister"];
-const insultAdjectiveArray = [["detestable","a"],["worthless","a"],["miserable","a"],["pathetic","a"],["demented","a"],["unlovable","an"],["unapologetic","an"],["complete","a"],["total","a"],["rude","a"],["ugly","a"],["fat","a"],["stupid","a"]];
+const insultAdjectiveArray = [["detestable","a"],["worthless","a"],["miserable","a"],["pathetic","a"],["unlovable","an"],["unapologetic","an"],["complete","a"],["total","a"],["rude","a"],["ugly","a"],["fat","a"],["stupid","a"]];
 const insultNounArray = ["idiot","moron","scoundrel","knave","cur","slut","whore","bastard","vagabond","lowlife","pig","psycho"]; //The second element of each item array specifies whether to use 'an' or 'a' -- grammatical correctness is important!
 
 
